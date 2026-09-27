@@ -89,34 +89,34 @@ Two things make this a *vault* rather than a folder of notes:
 
 ## At a Glance
 
-| Property | Value |
-|---|---|
-| Notes (excluding this README) | 59 |
-| Markdown files in repo | 60 (59 notes + `README.md`) |
-| Total words in notes | 59,068 |
-| Total lines in notes | 3,997 |
-| Size of the 59 notes | 386 KiB (395,156 bytes) |
-| Wikilinks across notes | 422 — **0 broken** |
-| — of which alias form `[[stem\|Display]]` | 183 |
-| — of which plain form `[[stem]]` | 239 |
-| Numbered files (`00`–`26`) | 23 = 1 master map + 22 era chapters |
-| Per-philosopher / per-era files | 27 |
-| Era link hubs | 9 |
-| YAML frontmatter | 0 — plain Markdown throughout |
-| Files with a `## Related` section | 55 of 59 |
-| Images, attachments, PDFs, tags | none |
-| Fenced code blocks in the notes | 2 ASCII diagrams, both in hubs |
-| Tracked in git | 61 files (60 `.md` + `.gitignore`) |
-| Vault config committed? | No — `.obsidian/` and `.trash/` are gitignored |
+| Property                                  | Value                                          |
+| ----------------------------------------- | ---------------------------------------------- |
+| Notes (excluding this README)             | 59                                             |
+| Markdown files in repo                    | 60 (59 notes + `README.md`)                    |
+| Total words in notes                      | 59,068                                         |
+| Total lines in notes                      | 3,997                                          |
+| Size of the 59 notes                      | 386 KiB (395,156 bytes)                        |
+| Wikilinks across notes                    | 422 — **0 broken**                             |
+| — of which alias form `[[stem\|Display]]` | 183                                            |
+| — of which plain form `[[stem]]`          | 239                                            |
+| Numbered files (`00`–`26`)                | 23 = 1 master map + 22 era chapters            |
+| Per-philosopher / per-era files           | 27                                             |
+| Era link hubs                             | 9                                              |
+| YAML frontmatter                          | 0 — plain Markdown throughout                  |
+| Files with a `## Related` section         | 55 of 59                                       |
+| Images, attachments, PDFs, tags           | none                                           |
+| Fenced code blocks in the notes           | 2 ASCII diagrams, both in hubs                 |
+| Tracked in git                            | 61 files (60 `.md` + `.gitignore`)             |
+| Vault config committed?                   | No — `.obsidian/` and `.trash/` are gitignored |
 
 **File classes at a glance**
 
-| Class | Pattern | Count | Purpose |
-|---|---|---|---|
-| Master map | `00 - MASTER Philosophy Map.md` | 1 | Chronological index; the entry point |
-| Era chapter | `NN - Title - Subtitle.md` | 22 | One book chapter, doctrine only |
-| Philosopher / era note | `Name.md` | 27 | One thinker (or one era) per file |
-| Link hub | `Link Hub - Era.md` | 9 | Era landing page, theses, tables, lineage |
+| Class                  | Pattern                         | Count | Purpose                                   |
+| ---------------------- | ------------------------------- | ----- | ----------------------------------------- |
+| Master map             | `00 - MASTER Philosophy Map.md` | 1     | Chronological index; the entry point      |
+| Era chapter            | `NN - Title - Subtitle.md`      | 22    | One book chapter, doctrine only           |
+| Philosopher / era note | `Name.md`                       | 27    | One thinker (or one era) per file         |
+| Link hub               | `Link Hub - Era.md`             | 9     | Era landing page, theses, tables, lineage |
 
 ---
 
@@ -204,17 +204,17 @@ Renders as **Socrates**, jumps to the file. 183 of the 422 links use this alias 
 
 The chains the vault is built around, all of them one click from any note:
 
-| Chain | Route |
-|---|---|
-| The Greek triangle | `Socrates → Plato → Aristotle` (question → Forms → substance) |
-| Christian reception | `Plato → Augustine` and `Aristotle → Aquinas` |
-| The mind–body line | `Descartes → Spinoza` (two substances → one substance) |
-| The knowledge quarrel | `Descartes / Spinoza` vs `Locke → Hume → Berkeley` → `Kant` |
-| The critique ladder | `Kant → Romanticism → Hegel → Kierkegaard` (and Kierkegaard's red-bottle/blue-bottle correction) |
-| The 19th-century unmaskers | `Hegel → Kierkegaard / Marx / Darwin / Freud` |
-| Our own century | `Kierkegaard / Hegel / Marx → Sartre → Beauvoir / Camus / Naess` |
-| Women's voices | `Olympe de Gouges` (1789) ↔ `Simone de Beauvoir` (1949) ↔ `Hildegard of Bingen` (12th c.) |
-| Matter and cosmos | `Democritus` (atoms) → `08 Hellenism` (Epicureans) → `Darwin` → `26 Cosmos` → `Arne Naess` |
+| Chain                      | Route                                                                                            |
+| -------------------------- | ------------------------------------------------------------------------------------------------ |
+| The Greek triangle         | `Socrates → Plato → Aristotle` (question → Forms → substance)                                    |
+| Christian reception        | `Plato → Augustine` and `Aristotle → Aquinas`                                                    |
+| The mind–body line         | `Descartes → Spinoza` (two substances → one substance)                                           |
+| The knowledge quarrel      | `Descartes / Spinoza` vs `Locke → Hume → Berkeley` → `Kant`                                      |
+| The critique ladder        | `Kant → Romanticism → Hegel → Kierkegaard` (and Kierkegaard's red-bottle/blue-bottle correction) |
+| The 19th-century unmaskers | `Hegel → Kierkegaard / Marx / Darwin / Freud`                                                    |
+| Our own century            | `Kierkegaard / Hegel / Marx → Sartre → Beauvoir / Camus / Naess`                                 |
+| Women's voices             | `Olympe de Gouges` (1789) ↔ `Simone de Beauvoir` (1949) ↔ `Hildegard of Bingen` (12th c.)        |
+| Matter and cosmos          | `Democritus` (atoms) → `08 Hellenism` (Epicureans) → `Darwin` → `26 Cosmos` → `Arne Naess`       |
 
 **3. Use the Link Hubs to orient before you read.** A hub is a landing page: a table of one-line theses, a lineage diagram, a comparison table, and a "key debate" section. Open one, get the shape of the era in 30 seconds, then dive into the chapter files.
 
