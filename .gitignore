@@ -1,0 +1,4 @@
+.obsidian/
+.trash/
+*.tmp
+.DS_Store
