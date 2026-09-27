@@ -85,6 +85,10 @@ Two things make this a *vault* rather than a folder of notes:
 1. **Filenames are the link targets.** Every cross-reference is an Obsidian `[[wikilink]]` that resolves by filename, so the links are clickable, autocomplete-able, and show up in Obsidian's backlinks pane and Graph View. Verified: **422 wikilinks, 0 broken.**
 2. **Hubs give each era a landing page.** The nine `Link Hub - *.md` files hold one-line theses, comparison tables, lineage diagrams, and debate summaries, so you can orient yourself in an era before reading 2,000 words per chapter.
 
+**Live preview — the actual Graph View of this vault (59 notes, 422 edges):**
+
+![Obsidian Graph View of the vault](screenshot-2026-09-27_19-13-35.png)
+
 ---
 
 ## At a Glance
@@ -104,9 +108,9 @@ Two things make this a *vault* rather than a folder of notes:
 | Era link hubs                             | 9                                              |
 | YAML frontmatter                          | 0 — plain Markdown throughout                  |
 | Files with a `## Related` section         | 55 of 59                                       |
-| Images, attachments, PDFs, tags           | none                                           |
+| Images, attachments, PDFs, tags           | 1 image (Graph View preview below); no attachments/PDFs/tags |
 | Fenced code blocks in the notes           | 2 ASCII diagrams, both in hubs                 |
-| Tracked in git                            | 61 files (60 `.md` + `.gitignore`)             |
+| Tracked in git                            | 62 files (60 `.md` + `.gitignore` + 1 `.png`) |
 | Vault config committed?                   | No — `.obsidian/` and `.trash/` are gitignored |
 
 **File classes at a glance**
